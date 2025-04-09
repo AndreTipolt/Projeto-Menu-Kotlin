@@ -6,23 +6,23 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_ciencia_computacao"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_ciencia_computacao"
             android:title="@string/menu_ciencia_computacao" />
         <item
             android:id="@+id/nav_analise_desenvolvimento_sistemas"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_analise_desenvolvimento"
             android:title="@string/menu_analise_desenvolvimento_sistemas" />
         <item
             android:id="@+id/nav_quem_somos"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_quem_somos"
             android:title="@string/menu_quem_somos" />
         <item
             android:id="@+id/nav_contato"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_contato"
             android:title="@string/menu_contato" />
         <item
             android:id="@+id/nav_galeria"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_galeria"
             android:title="@string/menu_galeria" />
     </group>
 </menu>
