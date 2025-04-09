@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/icone_cruzeiro_do_sul" />
+        android:paddingBottom="8dp"
+        app:srcCompat="@drawable/icone_cruzeiro_do_sul_rounded" />
 
     <TextView
         android:layout_width="match_parent"

@@ -12,14 +12,32 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.projetomenu.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_ciencia_computacao"
+        android:name="com.example.projetomenu.ui.cienciaComputacao.CienciaComputacaoFragment"
+        android:label="@string/menu_ciencia_computacao"
+        tools:layout="@layout/fragment_ciencia_computacao" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.projetomenu.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_analise_desenvolvimento_sistemas"
+        android:name="com.example.projetomenu.ui.analiseDesenvolvimentoSistema.AnaliseDesenvolvimentoFragment"
+        android:label="@string/menu_analise_desenvolvimento_sistemas"
+        tools:layout="@layout/fragment_analise_desenvolvimento_sistema" />
+
+    <fragment
+        android:id="@+id/nav_quem_somos"
+        android:name="com.example.projetomenu.ui.quemSomos.QuemSomosFragment"
+        android:label="@string/menu_quem_somos"
+        tools:layout="@layout/fragment_quem_somos" />
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.example.projetomenu.ui.contato.ContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/fragment_contato" />
+
+    <fragment
+        android:id="@+id/nav_galeria"
+        android:name="com.example.projetomenu.ui.galeria.GaleriaFragment"
+        android:label="@string/menu_galeria"
+        tools:layout="@layout/fragment_galeria" />
 </navigation>
